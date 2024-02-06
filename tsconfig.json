@@ -1,0 +1,30 @@
+{
+  "display": "Node 20",
+	"compilerOptions": {
+		"strict": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"noFallthroughCasesInSwitch": true,
+		"resolveJsonModule": true,
+		"exactOptionalPropertyTypes": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"verbatimModuleSyntax": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"sourceMap": true,
+		"module": "NodeNext",
+		"lib": ["ESNext"],
+		"target": "esnext",
+		"outDir": "dist",
+		"moduleResolution": "nodenext",
+		"baseUrl": ".",
+		"skipLibCheck": true
+	},
+	"include": ["*.ts"],
+	"exclude": ["node_modules"]
+}
